@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
@@ -570,14 +574,10 @@ a:focus {
 }
 
 .service_section .owl-stage .owl-item.active.center .box {
-  background-color: #004445;
+  background-color: #1c7bd2;
   color: #ffffff;
 }
 
-.service_section .owl-stage .owl-item.active.center .box .img-box img {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
-}
 
 .service_section .owl-nav {
   display: none;
