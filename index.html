@@ -363,37 +363,38 @@
 
   <!-- contact section -->
   <section class="contact_section" id="contacto">
+    
     <div class="container-fluid">
 
       <div class="row">
         <div class="col-md-5 mx-auto">
           <div class="form_container">
-            <div class="heading_container heading_center">
+            <div class="heading_container heading_center">  
               <h2>Contactate con nosotros</h2>
             </div>
-            <form action="">
+            <form  action="https://formsubmit.co/68e37f4838754f1c6ce1620bee11ceef" method="POST">
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="form-control" placeholder="Nombre Completo" />
+                  <input type="text" name="nombre" class="form-control" placeholder="Nombre Completo"  required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Email" />
+                  <input type="email" name="email" class="form-control" placeholder="Email"  required />
                 </div>
               </div>
                <div class="form-row">
                 <div class="form-group col">
-                  <input type="email" class="form-control" placeholder="Asunto" />
+                  <input type="text" name="asunto" class="form-control" placeholder="Asunto" required />
                 </div>
               </div>
               <div class="form-row">
                 <div class="form-group col">
-                  <input type="text" class="message-box form-control" placeholder="Mensaje" />
+                  <textarea  name="Mensaje" class="message-box form-control" placeholder="Mensaje" required ></textarea>
                 </div>
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   ENVIAR
                 </button>
               </div>
