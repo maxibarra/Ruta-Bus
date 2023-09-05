@@ -9,7 +9,6 @@ getYear();
 
 //service section owl carousel
 $(".service_owl-carousel").owlCarousel({
-    autoplay: true,
     center: true,
     nav: true,
     loop: true,
@@ -33,7 +32,6 @@ var owl = $('.portfolio_carousel').owlCarousel({
     margin: 15,
     dots: false,
     center: true,
-    autoplay: true,
     navText: [
         '<i class="fa fa-arrow-left" aria-hidden="true"></i>',
         '<i class="fa fa-arrow-right" aria-hidden="true"></i>'
@@ -68,14 +66,6 @@ $('.owl-filter-bar').on('click', '.item', function (e) {
 
     e.preventDefault();
 })
-/** google_map js **/
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.712775, -74.005973),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
 
 // nice select
 $(document).ready(function () {
