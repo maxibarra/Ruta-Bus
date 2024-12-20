@@ -612,11 +612,11 @@ a:focus {
   margin: 0 2px;
   background-color: #ccc;
   border: none;
-  outline: none;
+  outline: none;  
 }
 
 .service_section .owl-dots .owl-dot.active {
-  background: #2c7873;
+  background: #1c7bd2;
 }
 
 .about_section .row {
